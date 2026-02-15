@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Login</title>
-     <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
-     <h2 class="title">Login</h2>
+        <h2 class="title">Login</h2>
 
-  <form class="form">
-    <label class="label">Email</label>
-    <input type="email" class="input" placeholder="Enter your email">
+        <!-- Using a link styled as a button (no actual form submission) -->
+        <div class="form">
+            <label class="label">Email</label>
+            <input type="email" class="input" placeholder="Enter your email">
 
-    <label class="label">Password</label>
-    <input type="password" class="input" placeholder="Enter a password">
+            <label class="label">Password</label>
+            <input type="password" class="input" placeholder="Enter a password">
 
- 
-   <button class="btn"><a href="portfolio.html" class="link">Login</a></button>
-  </form>
-  <p class="text">
+            <!-- Fixed: direct link with button styling -->
+            <a href="portfolio.html" class="btn">Login</a>
+        </div>
 
-    Don't have an account?
-    <a href="Register.html" class="link">Register</a>
-
-  </p>  
-</div>
+        <p class="text">
+            Don't have an account?
+            <a href="register.html" class="link">Register</a>
+        </p>
+    </div>
 </body>
 </html>
